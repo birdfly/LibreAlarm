@@ -7,10 +7,10 @@
     <string name="drawer_close">close drawer</string>
 
     <!-- Explanation shown when user presses on an error message in the glucose list -->
-    <string name="err_explanation">出现这个错误说明手表没有获得血糖值。\n\n请确保手表是在探头的正上方并且是面向着探头的。\n\n同时确保NFC功能是开启的，可以在手表上打开NFC设置软件查看。如果开启NFC功能失败，请重启手表并重试。</string>
+    <string name="err_explanation">出现这个错误说明手表没有获得血糖值。\n\n请确保手表屏幕与探头接触。\n\n同时确认NFC功能已打开，可以在手表上打开NFC设置软件查看。如果开启NFC功能失败，请重启手表并重试。</string>
 
     <!-- Disclaimer message shown when user first starts app -->
-    <string name="disclaimer_message">请仔细阅读以下注意事项！\n\n1, 这是一个非官网软件，并且未通过雅培认证。\n\n2, 血糖数据不一定完全精确。这个软件的唯一目的是在圩塘偏低或偏高的时候进行报警。所有的血糖值都应该通过雅培官方工具进行确认。\n\n3,不要依赖于这个APP，它也可能会出错。它有可能会没有预警的停止工作或显示错误的结果。</string>
+    <string name="disclaimer_message">请仔细阅读以下注意事项！\n\n1, 这是一个非官方软件，并且未通过雅培认证。\n\n2, 血糖数据不一定完全精确。这个软件的唯一目的是在于血糖偏低或偏高的时候进行报警。所有的血糖值都应该通过雅培官方工具进行确认。\n\n3,不要依赖于这个APP，它也可能会出错。它有可能会没有预警的停止工作或显示错误的结果。</string>
 
     <!-- Disclaimer title message shown when user first starts app -->
     <string name="disclaimer_title">免责声明</string>
@@ -61,16 +61,16 @@
     <string name="nightscout_set_url">设置 URL</string>
 
     <!-- Button visible when alarm is snoozing -->
-    <string name="button_alarm_disabled">启动e</string>
+    <string name="button_alarm_disabled">启动</string>
 
     <!-- Button text to disable alarm for a period of time-->
     <string name="alarm_disable_button" formatted="false">关闭 %d 分钟</string>
 
     <!-- Button text to turn off alarm -->
-    <string name="alarm_turn_off">关闭</string>
+    <string name="alarm_turn_off">关闭提醒</string>
 
     <!-- Toast message telling us we failed to turn off alarm -->
-    <string name="toast_turn_off_alarm_failed">关闭警报功能失败。</string>
+    <string name="toast_turn_off_alarm_failed">关闭警报功能失败</string>
 
     <!-- Text message telling us the alarm is disabled for low glucose (Max 30 characters) -->
     <string name="alarm_disabled_low_text" formatted="false">低血糖警报休眠时间: % 秒</string>
@@ -100,7 +100,7 @@
     <string name="settings_err_checkbox">错误报警</string>
 
     <!-- How many times you need to get ERR for alarm -->
-    <string name="settings_err_edittext">需要获得多少次错误报警</string>
+    <string name="settings_err_edittext">错误提醒次数低限</string>
 
     <!-- Shown in quick settings to verify watch settings are up to date-->
     <string name="watch_value">Value on watch: %s</string>
